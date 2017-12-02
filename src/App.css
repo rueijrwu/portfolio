@@ -1,0 +1,37 @@
+.App-nav {
+  position: fixed;
+  margin-top: -20px;
+  margin-left: 20px;
+  width: 160px;
+}
+.App-navLink {
+  color: black;
+  outline: 0;
+  text-decoration: none;
+}
+.App-navLink:active {
+  color: rgb(233, 5, 233);
+}
+.App-navLink:hover {
+  color: rgb(0, 95, 204);
+}
+.App-nav h4 {
+  line-height: 10px;
+}
+.App-nav ul li {
+  list-style: none;
+  margin-left : -20px;
+  padding-bottom: 5px;
+}
+
+.App-main {
+  margin-top : 50px;
+  margin-left : 200px;
+  width : 960px;
+}
+
+.App-content p {
+  line-height: 30px;
+  text-align : justify;
+  width : 960px;
+}

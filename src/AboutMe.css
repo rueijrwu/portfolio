@@ -1,0 +1,11 @@
+.aboutme-img {
+    float:left;
+    margin-right: 20px;
+}
+.aboutme-cv {
+    color:blue;
+    text-decoration: none;
+}
+.aboutme-cv:hover {
+    color: rgb(233, 5, 233);
+}
