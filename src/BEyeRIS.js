@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class BEyeRIS extends Component {
   render() {
+    var PUBLIC_URL = process.env.PUBLIC_URL;
     return (
       <div>
         <h3>Binocular EyeRIS</h3>
-        <img src="portfolio/image/bdpi-setup.jpg" alt="bdpi-setup" style={{"width":"800px"}}/>
+        <img src={PUBLIC_URL + "/image/bdpi-setup.jpg"} alt="bdpi-setup" style={{"width":"960px"}}/>
         <p style={{"text-align":"justify"}}>
-        DPI eye-tracker (Generation 6 by Fourward Technologies), is a device 
-        that can measure ocular motion with high resolution at hight speed.  
-        With two DPI eye-tracker, we can measure binocular eye movement. I 
-        developed the interface in C++ to control Binocular eye tracker and 
-        measure eye movement.
+          I led the engineer team to develop a framework, Binocular EyeRIS, to 
+          measure binocular movement with hight resolution at high speed. This 
+          framework includes two eye-trackers (To understand how DPI work, 
+          please check <Link to='/portfolio/ddpi'>DDPI</Link>) , two translational 
+          stages, head reset and data acquisition device. EyeRIS is an software 
+          suit integrated into this framework to present visual stimulus and 
+          highly synchronize with eye-trackers and monitor in real time. 
         </p>
       </div>
     )

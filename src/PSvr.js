@@ -8,17 +8,14 @@ class PSvr extends Component {
         <h3>PhaseSapce Virtual Reality</h3>
         <img src={PUBLIC_URL + "/image/psvr.jpg"} alt="psvr" style={{"width":"960px"}}/>
         <p style={{"text-align":"justify"}}>
-          PhaseSpace System is an active optical system composed by cameras and 
-          64 LED markers. These cameras can measure distance of markers and compute
-          their position in space. To study natural, head-free, ocular motion, I 
-          innovate a helmet system based on PhaseSpace. Compare other devices using 
-          gyroscope or acceleration sensor, this system can measure head motion 
-          with high resolution at high speed.
+          Regular Head Mount Display (HMD) like VR and AR use gyroscope or 
+          acceleration sensor to measure head motion to present virtual 
+          enviroments. These sensors are not accurate enough to study natural 
+          (head-free) small ocular motion. Hence, I prototype PSvr, a framework 
+          integrates HMD with PhaseSapce which is an active optical motion 
+          detector with high spped. Based on PhaseSpace, I build a innovative 
+          helmet system to measure pricise head motion. 
         </p>
-        {/* <p>
-          PSvr is an integrated system with PhaseSapce helmet and Oculus Rift DK1. 
-          Instead of using the motion sensor from DK1,  
-        </p> */}
       </div>
     )
   }
