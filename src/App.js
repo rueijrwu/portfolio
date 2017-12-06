@@ -8,6 +8,7 @@ import DDPI from './DDPI';
 import Dualtrack from './Dualtrack';
 import PSvr from './PSvr';
 import Publication from './Publication';
+import Termite from './Termite';
 
 class App extends Component {
   render() {
@@ -19,15 +20,12 @@ class App extends Component {
           <ul>
             {/* <li><Link to='/apenv' className="App-navSubItem">APenv</Link></li> */}
             <li><Link to='/portfolio/beyeris' className="App-navLink">B-EyeRIS</Link></li>
-            {/* <li><Link to='/bossenv' className="App-navSubItem">BOSSenv</Link></li> */}
             <li><Link to='/portfolio/ddpi' className="App-navLink">DDPI</Link></li>
             <li><Link to='/portfolio/dualtrack' className="App-navLink">Dualtrack</Link></li>
             <li><Link to='/portfolio/psvr' className="App-navLink">PSvr</Link></li>
+            <li><Link to='/portfolio/termite' className="App-navLink">T-Robots</Link></li>
           </ul>
           <h4><Link to='/portfolio/publication' className="App-navLink">Publication</Link></h4>
-          {/* <ul>
-            <li><Link to='/agedetection' className="App-navSubItem">Age Detection</Link></li>
-          </ul> */}
           <h4><a href="mailto:rueijrwu@bu.edu" className="App-navLink">Contact</a></h4>
         </nav>
         <main className="App-main">
@@ -39,6 +37,7 @@ class App extends Component {
             <Route path='/portfolio/dualtrack' component={Dualtrack}/>
             <Route path='/portfolio/psvr' component={PSvr}/>
             <Route path='/portfolio/publication' component={Publication}/>
+            <Route path='/portfolio/termite' component={Termite}/>
           </Switch>
         </main>
       </div>
