@@ -8,10 +8,10 @@ class APenv extends Component {
         <h3>APenv</h3>
         <p>
           I developed APenv which integrates different devices includes DPI, 
-          Bionocular-DPI, DDPI, BOSS, Phasespace and HMD. APenv is C++ library 
-          and designed for neuron and biomedical scientists to allow the users 
-          build visual interactive experiments on regular monitor and HMD very 
-          easily.         
+          Bionocular-DPI, DDPI, BOSS, Phasespace and HMD. APenv is a C++ library 
+          and designed for neuron, biomedical scientists and psychologist to allow 
+          them build visual interactive experiments on regular monitor and HMD very 
+          easily.      
         </p>
       </div>
     )

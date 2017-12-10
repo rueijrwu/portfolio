@@ -20,7 +20,7 @@ class DDPI extends Component {
         <p>
           Digital Dual Purkinge Image is a simple optical image system to measure 
           oculor motion. Compared to DPI which measures the reflection by a single 
-          photoelectric sensor, DDPI captures the whole  image of eye by a CCD. 
+          photoelectric sensor, DDPI captures the whole  image of eye by CCD. 
           Because of the simplicity of DDPI, it is able to be integrated into head 
           mount devices (HMD) such as VR and AR. One of my furture research will 
           focus on building a HMD device which can percieve user's visual attention 
