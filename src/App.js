@@ -18,7 +18,7 @@ class App extends Component {
           <h4><Link to='/portfolio' className="App-navLink">About me</Link></h4>
           <h4>Project</h4>
           <ul>
-            {/* <li><Link to='/apenv' className="App-navSubItem">APenv</Link></li> */}
+            <li><Link to='/apenv' className="App-navSubItem">APenv</Link></li>
             <li><Link to='/portfolio/beyeris' className="App-navLink">B-EyeRIS</Link></li>
             <li><Link to='/portfolio/ddpi' className="App-navLink">DDPI</Link></li>
             <li><Link to='/portfolio/dualtrack' className="App-navLink">Dualtrack</Link></li>
