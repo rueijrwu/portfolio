@@ -8,7 +8,7 @@ import DDPI from './DDPI';
 import Dualtrack from './Dualtrack';
 import PSvr from './PSvr';
 import Publication from './Publication';
-//  import Termite from './Termite';
+import Termite from './Termite';
 
 class App extends Component {
   render() {
@@ -37,7 +37,7 @@ class App extends Component {
             <Route path='/portfolio/dualtrack' component={Dualtrack}/>
             <Route path='/portfolio/psvr' component={PSvr}/>
             <Route path='/portfolio/publication' component={Publication}/>
-            {/* <Route path='/portfolio/termite' component={Termite}/> */}
+            <Route path='/portfolio/termite' component={Termite}/>
           </Switch>
         </main>
       </div>
