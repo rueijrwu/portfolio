@@ -5,7 +5,7 @@ class APenv extends Component {
     var PUBLIC_URL = process.env.PUBLIC_URL;
     return (
       <div className="App-content">
-        {/* <img src={PUBLIC_URL + "/image/me.jpg"} alt="me" width="300" className="aboutme-img"/> */}
+        <img src={PUBLIC_URL + "/image/apenv.png"} alt="apenv" style={{"width":"960px"}}/>
         <h3>APenv</h3>
         <p>
           I developed APenv, a 3D engine in C++. APenv integrates different devices 
