@@ -5,7 +5,7 @@ class Termite extends Component {
   render() {
     var PUBLIC_URL = process.env.PUBLIC_URL;
     return (
-      <div>
+      <div className="App-content">
         <h3>Termite Robots</h3>
         <img src={PUBLIC_URL + "/image/termite.png"} alt="termite" style={{"width":"960px"}}/>
         <p style={{"text-align":"justify"}}>

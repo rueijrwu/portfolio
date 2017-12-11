@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Dualtrack extends Component {
   render() {
     return (
-      <div>
+      <div className="App-content">
         <h3>Dualtrack</h3>
         <iframe title="ddpi-video" width="960" height="450" src="https://www.youtube.com/embed/CpbSYn072iU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         <p style={{"text-align":"justify"}}>

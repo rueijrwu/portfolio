@@ -5,7 +5,7 @@ class BEyeRIS extends Component {
   render() {
     var PUBLIC_URL = process.env.PUBLIC_URL;
     return (
-      <div>
+      <div className="App-content">
         <h3>Binocular EyeRIS</h3>
         <img src={PUBLIC_URL + "/image/bdpi-setup.jpg"} alt="bdpi-setup" style={{"width":"960px"}}/>
         <p style={{"text-align":"justify"}}>
