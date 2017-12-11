@@ -8,8 +8,7 @@ class Misc extends Component {
         <h3>Miscellaneous projects</h3>
         <img src={PUBLIC_URL + "/image/misc.png"} alt="misc" style={{"width":"960px"}}/>
         <p style={{"text-align":"justify"}}>
-          I led the engineering team in APLab and developed several prototypes, 
-          software and interfaces from their design to fabrication.
+          I led several projects and contributed from their design to fabrication.
         </p>
       </div>
     )
